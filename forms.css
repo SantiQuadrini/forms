@@ -1,0 +1,38 @@
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
+form{
+    background-color: cadetblue;
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 512px;
+    margin: auto;
+    align-items: center;
+    padding: 3rem;
+    border-radius: 10px;
+    gap: 10px;
+}
+h1{
+    text-align: center;
+}
+div{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    gap: 5px;
+}
+#submit-button{
+    padding: 0.5rem 2rem;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    border: none;
+    gap: 10px;
+}
